@@ -1,0 +1,40 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.columnLeft {
+    width: 400px;
+    float: left;
+}
+
+.columnRight {
+    margin-left: 410px;
+}
+
+.image {
+    boarder-style: solid;
+    border-color: royalblue;
+}
+
+.headerText {
+    color: royalblue;
+    font-size: x-large;
+}
+
+label {
+    width: 100px;
+    float: left;
+}
+
+#labalReult {
+    width: 200px;
+}
+
+.result {
+    color: darkred;
+    font-weight: bold;
+}
+
+.errorMessage {
+    color: red;
+}

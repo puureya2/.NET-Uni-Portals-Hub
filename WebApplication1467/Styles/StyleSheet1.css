@@ -1,0 +1,61 @@
+﻿body {
+}
+
+.blueText {
+    color: #0000FF;
+    font-style: italic;
+}
+
+.validationErrorRed {
+    color: #FF0000;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+.fontForm {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    background-color: royalblue;
+    color: white;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+.leftMenuColumn {
+    width: 200px;
+    float: left;
+    background-color: aliceblue;
+    min-height: 100vh;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.leftMenuLink {
+    color: royalblue;
+    line-height: 30px;
+}
+
+.content {
+    margin-left: 210px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.banner {
+    width: calc(100vw - 35px);
+}
+

@@ -1,0 +1,271 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1467</RootNamespace>
+    <AssemblyName>WebApplication1467</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44319</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Images-Lab5-6\average2numbers.jpg" />
+    <Content Include="Images-Lab5-6\bodymassindex.jpg" />
+    <Content Include="Images-Lab5-6\sam-online-banner.jpg" />
+    <Content Include="Images\bird.png" />
+    <Content Include="Images\cat.png" />
+    <Content Include="Images\dog.png" />
+    <Content Include="Images\fish.png" />
+    <Content Include="Images\lizard.png" />
+    <Content Include="Images\pet.png" />
+    <Content Include="Images\rabbit.png" />
+    <Content Include="Images\WebFormElectricity467.aspx" />
+    <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="Styles\StyleSheet2.css" />
+    <Content Include="Styles\StyleSheetK.css" />
+    <Content Include="User Controls\AverageTwoNumbers.ascx" />
+    <Content Include="User Controls\BodyMassIndex.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="WebForm1467.aspx" />
+    <Content Include="WebForm2467.aspx" />
+    <Content Include="WebForm3467.aspx" />
+    <Content Include="WebForm4467.aspx" />
+    <Content Include="WebForm5467.aspx" />
+    <Content Include="WebForm6a467.aspx" />
+    <Content Include="WebForm6b467.aspx" />
+    <Content Include="WebForm7467.aspx" />
+    <Content Include="WebFormBird.aspx" />
+    <Content Include="WebFormDog.aspx" />
+    <Content Include="WebFormRabbit.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Images\WebFormElectricity467.aspx.cs">
+      <DependentUpon>WebFormElectricity467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Images\WebFormElectricity467.aspx.designer.cs">
+      <DependentUpon>WebFormElectricity467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\AverageTwoNumbers.ascx.cs">
+      <DependentUpon>AverageTwoNumbers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\AverageTwoNumbers.ascx.designer.cs">
+      <DependentUpon>AverageTwoNumbers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\BodyMassIndex.ascx.cs">
+      <DependentUpon>BodyMassIndex.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\BodyMassIndex.ascx.designer.cs">
+      <DependentUpon>BodyMassIndex.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1467.aspx.cs">
+      <DependentUpon>WebForm1467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1467.aspx.designer.cs">
+      <DependentUpon>WebForm1467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2467.aspx.cs">
+      <DependentUpon>WebForm2467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2467.aspx.designer.cs">
+      <DependentUpon>WebForm2467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3467.aspx.cs">
+      <DependentUpon>WebForm3467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3467.aspx.designer.cs">
+      <DependentUpon>WebForm3467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4467.aspx.cs">
+      <DependentUpon>WebForm4467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4467.aspx.designer.cs">
+      <DependentUpon>WebForm4467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5467.aspx.cs">
+      <DependentUpon>WebForm5467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5467.aspx.designer.cs">
+      <DependentUpon>WebForm5467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6a467.aspx.cs">
+      <DependentUpon>WebForm6a467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6a467.aspx.designer.cs">
+      <DependentUpon>WebForm6a467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6b467.aspx.cs">
+      <DependentUpon>WebForm6b467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6b467.aspx.designer.cs">
+      <DependentUpon>WebForm6b467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm7467.aspx.cs">
+      <DependentUpon>WebForm7467.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm7467.aspx.designer.cs">
+      <DependentUpon>WebForm7467.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormBird.aspx.cs">
+      <DependentUpon>WebFormBird.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormBird.aspx.designer.cs">
+      <DependentUpon>WebFormBird.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormDog.aspx.cs">
+      <DependentUpon>WebFormDog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormDog.aspx.designer.cs">
+      <DependentUpon>WebFormDog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRabbit.aspx.cs">
+      <DependentUpon>WebFormRabbit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRabbit.aspx.designer.cs">
+      <DependentUpon>WebFormRabbit.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50985</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44319/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
