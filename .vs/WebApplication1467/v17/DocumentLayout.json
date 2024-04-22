@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|c:\\users\\user\\desktop\\niap\\kevin\\4\\sem4 (srs stuff)\\wad\\vb projects\\courseproject\\webapplication1467\\webapplication1467\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|solutionrelative:webapplication1467\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|c:\\users\\user\\desktop\\niap\\kevin\\4\\sem4 (srs stuff)\\wad\\vb projects\\courseproject\\webapplication1467\\webapplication1467\\user controls\\averagetwonumbers.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|solutionrelative:webapplication1467\\user controls\\averagetwonumbers.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|c:\\users\\user\\desktop\\niap\\kevin\\4\\sem4 (srs stuff)\\wad\\vb projects\\courseproject\\webapplication1467\\webapplication1467\\user controls\\bodymassindex.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|solutionrelative:webapplication1467\\user controls\\bodymassindex.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|c:\\users\\user\\desktop\\niap\\kevin\\4\\sem4 (srs stuff)\\wad\\vb projects\\courseproject\\webapplication1467\\webapplication1467\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{20CD4B1B-8F19-452A-9AC2-5FD22E77A4CA}|WebApplication1467\\WebApplication1467.csproj|solutionrelative:webapplication1467\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
@@ -31,53 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\Default.aspx",
-              "RelativeDocumentMoniker": "WebApplication1467\\Default.aspx",
-              "ToolTip": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\Default.aspx",
-              "RelativeToolTip": "WebApplication1467\\Default.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-21T13:06:50.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AverageTwoNumbers.ascx",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\User Controls\\AverageTwoNumbers.ascx",
-              "RelativeDocumentMoniker": "WebApplication1467\\User Controls\\AverageTwoNumbers.ascx",
-              "ToolTip": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\User Controls\\AverageTwoNumbers.ascx",
-              "RelativeToolTip": "WebApplication1467\\User Controls\\AverageTwoNumbers.ascx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-04-21T13:06:34.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Site1.Master",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\Site1.Master",
               "RelativeDocumentMoniker": "WebApplication1467\\Site1.Master",
               "ToolTip": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\Site1.Master",
               "RelativeToolTip": "WebApplication1467\\Site1.Master",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-04-21T12:34:44.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BodyMassIndex.ascx",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\User Controls\\BodyMassIndex.ascx",
-              "RelativeDocumentMoniker": "WebApplication1467\\User Controls\\BodyMassIndex.ascx",
-              "ToolTip": "C:\\Users\\User\\Desktop\\niaP\\Kevin\\4\\sem4 (srs stuff)\\WAD\\vb projects\\CourseProject\\WebApplication1467\\WebApplication1467\\User Controls\\BodyMassIndex.ascx",
-              "RelativeToolTip": "WebApplication1467\\User Controls\\BodyMassIndex.ascx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-04-21T13:04:37.129Z",
               "EditorCaption": ""
             }
           ]
